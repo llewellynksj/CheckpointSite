@@ -463,8 +463,5 @@ CSS
 
 <br>
 
-<<<<<<< HEAD
+
 ### **Acknowledgements**
-=======
-### **Acknowledgements**
->>>>>>> 3ed7b29 (Add template for readme and update summary points)
