@@ -1,108 +1,479 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# CheckPoint
 
-Welcome JamesMartin1998,
+CheckPoint is a website that has been created to facilitate a peer-led support service to veterans dealing with mental health struggles. The blog style of the site allows veterans to share their own experiences and explore different ways of improving their health & wellbeing.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Image of CheckPoint website deployed across different devices]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Visit the  live website here]()
 
-## Gitpod Reminders
+<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Contents
+----
 
-`python3 -m http.server`
+### [User Experience (UX)](#user-experience-ux-1)
+- [Purpose](#purpose)
+- [User Stories](#user-stories)
+  - [First Time Visitors](#first-time-visitor-goals)
+  - [Returning Visitors](#returning-visitor-goals)
+  - [Frequent Users](#frequent-visitor-goals)
 
-A blue button should appear to click: _Make Public_,
+### [Design](#design-1)
+- [Colour Scheme](#colour-scheme)
+- [Typography](#typography)
+- [Imagery](#imagery)
+- [Wireframes](#wireframes)
 
-Another blue button should appear to click: _Open Browser_.
+### [Features](#features-1)
+- [Existing Features](#existing-features)
+  - [Homepage](#homepage)
+  - [About Us page](#about_us_page)
+  - [Blog page](#blog_page)
+  - [Contact page](#contact_page)
+- [Accessibility](#accessibility)
+- [Future Features](#future-features)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### [Technologies](#technologies-1)
 
-A blue button should appear to click: _Make Public_,
+### [Version Control](#version-control-1)
 
-Another blue button should appear to click: _Open Browser_.
+### [Deployment](#deployment-1)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### [Testing](#testing-1)
+- [Function Testing](#function-testing)
+- [User Story Testing](#user-story-testing)
+- [Lighthouse](#lighthouse)
+- [Validator Testing](#validator-testing)
+- [Bugs](#bugs)
 
-To log into the Heroku toolbelt CLI:
+### [Credits](#credits-1)
+- [Resources](#resources)
+- [Acknowledgements](#acknowledgements)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<br>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+----
 
-------
+<br>
 
-## Release History
+## User Experience (UX)
+### **Purpose**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Enter purpose description 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<br>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### User Stories
+### **Client Goals**
+- To inform users how they can get mental health support
+- To provide a clear and simple way for users to share their story
+- To connect users with each other
+- To be able to view on a range of devices
+- To create a non-judgemental and inclusive brand identity
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### **First Time Visitor Goals** 
+- I want to be able to easily find the number to contact a helpline
+- I want to be able to easily create an account
+- I want to be able to read other posts by members
+- I want to be able to comment on and like other posts
+- I want to be able to create a blog post
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<br>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### **Returning Visitor Goals**
+- I want to be able to login easily
+- I want to be able to edit my blog posts
+- I want to be able to post on the blog anonymously
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<br>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### **Frequent Visitor Goals**
+- I want to be able to upload images to my blog posts
+- I want to be able to access further support resources
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<br>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+----
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Design
+### **Colour Scheme**
+The chosen colour scheme has been based on the colours of the British flag. These colours should resonate strongly with ex-servicemen and women.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Image of colour palette]()
 
-------
+<<<<<<< HEAD
+![Image of colour palette]()
 
-## FAQ about the uptime script
+=======
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
 
-**Why have you added this script?**
+<br>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### **Typography**
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<br>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### **Imagery**
+We want the UX of this site to reflect a strong message of inclusivity, and imagery has been chosen to reflect this.
 
-**So….?**
+Images have been sourced from...
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<br>
 
-**Can I opt out?**
+### **Wireframes**
+[Balsamiq Wireframing Software](https://balsamiq.com/) was used to create the wireframes.
+<details>
+<summary>Homepage (mobile)</summary>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Wireframe image of homepage design on mobile](static/readme_img/homepage_mob.png)
+</details>
+<details>
+<summary>Homepage (desktop)</summary>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![Wireframe image of homepage design on desktop](static/readme_img/homepage.png)
+</details>
 
-**Anything more?**
+<br>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+<details>
+<summary>About Us (mobile)</summary>
 
----
+![About us mobile wireframe](static/readme_img/about_us_mob.png)
+</details>
+<details>
+<summary>About Us (desktop)</summary>
 
-Happy coding!
+![About us desktop wireframe](static/readme_img/about_us.png)
+</details>
+
+<br>
+
+<details>
+<summary>Contact (mobile)</summary>
+
+![Contact mobile wireframe](static/readme_img/contact_us_mobile.png)
+</details>
+<details>
+<summary>Contact (desktop)</summary>
+
+![Contact desktop wireframe](static/readme_img/contact_us.png)
+</details>
+
+<br>
+
+<details>
+<summary>Blog Pages</summary>
+
+Sign Up:
+
+![Sign up page wireframe](static/readme_img/)
+
+Login:
+
+![Login page wireframe](static/readme_img/login.png)
+
+Profile:
+
+![Profile page wireframe](static/readme_img/profile_page.png)
+
+Add Post:
+
+![Add post page wireframe](static/readme_img/add_post.png)
+
+Delete Post:
+
+![Delete post page wireframe](static/readme_img/delete_post.png)
+
+Logout:
+
+![Logout page wireframe](static/readme_img/logout.png)
+</details>
+
+<br>
+
+<details>
+<summary>Error Pages</summary>
+
+![404 Error Page wireframe](static/readme_img/404.png)
+![403 Error Page wireframe](static/readme_img/403.png)
+![500 Error Page wireframe](static/readme_img/500.png)
+</details>
+
+<br>
+
+<<<<<<< HEAD
+<details>
+<summary>Blog Pages</summary>
+
+Sign Up:
+
+![Sign up page wireframe](static/readme_img/)
+
+Login:
+
+![Login page wireframe](static/readme_img/login.png)
+
+Profile:
+
+![Profile page wireframe](static/readme_img/profile_page.png)
+
+Add Post:
+
+![Add post page wireframe](static/readme_img/add_post.png)
+
+Delete Post:
+
+![Delete post page wireframe](static/readme_img/delete_post.png)
+
+Logout:
+
+![Logout page wireframe](static/readme_img/logout.png)
+</details>
+
+<br>
+
+<details>
+<summary>Error Pages</summary>
+
+![404 Error Page wireframe](static/readme_img/404.png)
+![403 Error Page wireframe](static/readme_img/403.png)
+![500 Error Page wireframe](static/readme_img/500.png)
+</details>
+
+<br>
+
+=======
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
+----
+
+## Features
+### **Existing Features**
+
+**All** pages include the following features:
+- Navigation bar:
+
+<<<<<<< HEAD
+- Footer: The footer contains the icons for social media and these are linked to the Ex-Military Careers sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
+=======
+- Footer:
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
+
+- Get help button:
+
+<br>
+
+### Homepage
+
+<br>
+
+### About Us page
+
+<br>
+
+### Contact page
+
+<br>
+
+### **Accessibility**
+In addition to being best practice, having an accessible website is extremely high on the list of requirements for the target audience. Close attention has been paid to the following in order to ensure the site is as accessible as possible:
+- Clear and simple font styling, avoiding any cursive or calligraphic scripts.
+- Contrasting colour scheme, but avoiding colours that are too bold.
+- Use of semantic HTML
+- Ensuring all images have an alt description for screen readers or where the image cannot be loaded. Also ensuring that these are as descriptive as possible.
+
+<br>
+
+### **Future Features**
+In the future there are features and developments that it would be useful to consider adding to create an even better user experience of this website. They include:
+- Developing the art therapy section of the site to be seperate from the stories blog
+-
+
+<br>
+
+----
+
+## Technologies
+### **Languages Used**
+This website has been written in...
+
+<br>
+
+**Frameworks, Libraries and Programs Used**
+- 
+
+<br>
+
+----
+
+## Version Control
+Version control has been maintained using Git. The code written for this website has been updated via regular commits to Github. These serve as a record of development and changes made.
+
+The commit history can be viewed [here]()
+
+<br>
+
+----
+
+## Deployment
+
+<br>
+
+----
+
+## Testing
+Testing was performed across a range of devices, including:
+- 
+
+### **Function Testing**
+
+| Page | Test | Successfully Completed |
+| :----| :---| :----------------------:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+<br>
+
+### **User Story Testing**
+
+| Client Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|   |  |  |
+|   |  |  |
+|   |  |  |
+|   |  |  |
+|   |  |  |
+
+<br>
+
+| First Time Visitor Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|   |  |  |
+|   |  |  |
+|   |  |  |
+|   |  |  |
+
+<br>
+
+| Returning Visitor Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+<br>
+
+| Frequent Visitor Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+<br>
+
+### **Lighthouse**
+
+For Mobile Devices
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of Lighthouse testing for homepage on mobile]()
+</details>
+<details>
+<summary>About Us Page</summary>
+
+![Screenshot of Lighthouse testing for about us page on mobile]()
+</details>
+<details>
+<summary>Contact Page</summary>
+
+![Screenshot of Lighthouse testing for contact page on mobile]()
+</details>
+
+<br>
+
+For Desktop
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of Lighthouse testing for homepage on desktop]()
+</details>
+<details>
+<summary>About Us Page</summary>
+
+![Screenshot of Lighthouse testing for about us page on desktop]()
+</details>
+<details>
+<summary>Contact Page</summary>
+
+![Screenshot of Lighthouse testing for contact page on desktop]()
+</details>
+
+<br>
+
+### **Validator Testing**
+HTML
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of WC3 testing for homepage]()
+</details>
+<details>
+<summary>About Us Page</summary>
+
+![Screenshot of WC3 testing for about us page]()
+</details>
+<details>
+<summary>Contact Page</summary>
+
+![Screenshot of WC3 testing for contact page]()
+</details>
+
+<br>
+
+CSS
+<details>
+<summary>Stylesheet</summary>
+
+![Screenshot of W3C Jigsaw testing for CSS Stylesheet]()
+</details>
+
+  <br>
+
+### **Bugs**
+  
+  | Raised by | Bug | Solution |
+  | :---      | :---| :---     |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+
+<br>
+
+----
+
+## Credits
+### **Resources**
+- 
+
+<br>
+
+<<<<<<< HEAD
+### **Acknowledgements**
+=======
+### **Acknowledgements**
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
