@@ -166,6 +166,46 @@ Images have been sourced from...
 
 <br>
 
+<details>
+<summary>Blog Pages</summary>
+
+Sign Up:
+
+![Sign up page wireframe](static/readme_img/)
+
+Login:
+
+![Login page wireframe](static/readme_img/login.png)
+
+Profile:
+
+![Profile page wireframe](static/readme_img/profile_page.png)
+
+Add Post:
+
+![Add post page wireframe](static/readme_img/add_post.png)
+
+Delete Post:
+
+![Delete post page wireframe](static/readme_img/delete_post.png)
+
+Logout:
+
+![Logout page wireframe](static/readme_img/logout.png)
+</details>
+
+<br>
+
+<details>
+<summary>Error Pages</summary>
+
+![404 Error Page wireframe](static/readme_img/404.png)
+![403 Error Page wireframe](static/readme_img/403.png)
+![500 Error Page wireframe](static/readme_img/500.png)
+</details>
+
+<br>
+
 ----
 
 ## Features
