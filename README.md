@@ -1,9 +1,8 @@
-# Checkpoint
+# CheckPoint
 
-Checkpoint is a website that has been created to facilitate a peer-led support service to veterans dealing with mental health struggles. The blog style of the site allows veterans to share their own experiences and explore different ways of improving their health & wellbeing.
-The driving force behind this method of digital story sharing is to enable users to discuss their difficulties transitioning back to civilian life without the attached mental health stigma.
+CheckPoint is a website that has been created to facilitate a peer-led support service to veterans dealing with mental health struggles. The blog style of the site allows veterans to share their own experiences and explore different ways of improving their health & wellbeing.
 
-![Image of Checkpoint website deployed across different devices]()
+![Image of CheckPoint website deployed across different devices]()
 
 [Visit the  live website here]()
 
@@ -60,7 +59,11 @@ The driving force behind this method of digital story sharing is to enable users
 ## User Experience (UX)
 ### **Purpose**
 
-Enter purpose description 
+CheckPoint is a website that has been created to facilitate a peer-led support service to veterans dealing with mental health struggles. The blog style of the site allows veterans to share their own experiences and explore different ways of improving their health & wellbeing.
+
+The driving force behind this method of digital story sharing is to enable users to discuss their difficulties transitioning back to civilian life, without the attached mental health stigma. This is also a central consideration around User Experience(UX) and User Interface Design (UI). The ease of use and simple navigation system should allow users to quickly find what they're looking for and avoid causing any unnecessary frustrations.
+
+People who may be dealing with poor mental health and struggling with the vulnerabilities that come with that should not be expected to navigate a complex website for support. Therefore the focus of CheckPoint's design is simple, clean and accessible.
 
 <br>
 
@@ -104,6 +107,8 @@ Enter purpose description
 The chosen colour scheme has been based on the colours of the British flag. These colours should resonate strongly with ex-servicemen and women.
 
 
+![Image of colour palette]()
+
 
 <br>
 
@@ -115,6 +120,8 @@ The chosen colour scheme has been based on the colours of the British flag. Thes
 
 ### **Imagery**
 We want the UX of this site to reflect a strong message of inclusivity, and imagery has been chosen to reflect this.
+
+Images have been sourced from...
 
 <br>
 
@@ -137,3 +144,242 @@ We want the UX of this site to reflect a strong message of inclusivity, and imag
 <summary>About Us (mobile)</summary>
 
 ![About us mobile wireframe](static/readme_img/about_us_mob.png)
+</details>
+<details>
+<summary>About Us (desktop)</summary>
+
+![About us desktop wireframe](static/readme_img/about_us.png)
+</details>
+
+<br>
+
+<details>
+<summary>Contact (mobile)</summary>
+
+![Contact mobile wireframe](static/readme_img/contact_us_mobile.png)
+</details>
+<details>
+<summary>Contact (desktop)</summary>
+
+![Contact desktop wireframe](static/readme_img/contact_us.png)
+</details>
+
+<br>
+
+----
+
+## Features
+### **Existing Features**
+
+**All** pages include the following features:
+- Navigation bar:
+
+- Footer:
+
+- Get help button:
+
+<br>
+
+### Homepage
+
+<br>
+
+### About Us page
+
+<br>
+
+### Contact page
+
+<br>
+
+### **Accessibility**
+In addition to being best practice, having an accessible website is extremely high on the list of requirements for the target audience. Close attention has been paid to the following in order to ensure the site is as accessible as possible:
+- Clear and simple font styling, avoiding any cursive or calligraphic scripts.
+- Contrasting colour scheme, but avoiding colours that are too bold.
+- Use of semantic HTML
+- Ensuring all images have an alt description for screen readers or where the image cannot be loaded. Also ensuring that these are as descriptive as possible.
+
+<br>
+
+### **Future Features**
+In the future there are features and developments that it would be useful to consider adding to create an even better user experience of this website. They include:
+- Developing the art therapy section of the site to be seperate from the stories blog
+-
+
+<br>
+
+----
+
+## Technologies
+### **Languages Used**
+This website has been written in...
+
+<br>
+
+**Frameworks, Libraries and Programs Used**
+- 
+
+<br>
+
+----
+
+## Version Control
+Version control has been maintained using Git. The code written for this website has been updated via regular commits to Github. These serve as a record of development and changes made.
+
+The commit history can be viewed [here]()
+
+<br>
+
+----
+
+## Deployment
+
+<br>
+
+----
+
+## Testing
+Testing was performed across a range of devices, including:
+- 
+
+### **Function Testing**
+
+| Page | Test | Successfully Completed |
+| :----| :---| :----------------------:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+
+<br>
+
+### **User Story Testing**
+
+| Client Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|   |  |  |
+|   |  |  |
+|   |  |  |
+|   |  |  |
+|   |  |  |
+
+<br>
+
+| First Time Visitor Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|   |  |  |
+|   |  |  |
+|   |  |  |
+|   |  |  |
+
+<br>
+
+| Returning Visitor Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+<br>
+
+| Frequent Visitor Goal | Solution | Tested & Successfully Completed |
+| :----| :---| :----------------------:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+<br>
+
+### **Lighthouse**
+
+For Mobile Devices
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of Lighthouse testing for homepage on mobile]()
+</details>
+<details>
+<summary>About Us Page</summary>
+
+![Screenshot of Lighthouse testing for about us page on mobile]()
+</details>
+<details>
+<summary>Contact Page</summary>
+
+![Screenshot of Lighthouse testing for contact page on mobile]()
+</details>
+
+<br>
+
+For Desktop
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of Lighthouse testing for homepage on desktop]()
+</details>
+<details>
+<summary>About Us Page</summary>
+
+![Screenshot of Lighthouse testing for about us page on desktop]()
+</details>
+<details>
+<summary>Contact Page</summary>
+
+![Screenshot of Lighthouse testing for contact page on desktop]()
+</details>
+
+<br>
+
+### **Validator Testing**
+HTML
+<details>
+<summary>Homepage</summary>
+
+![Screenshot of WC3 testing for homepage]()
+</details>
+<details>
+<summary>About Us Page</summary>
+
+![Screenshot of WC3 testing for about us page]()
+</details>
+<details>
+<summary>Contact Page</summary>
+
+![Screenshot of WC3 testing for contact page]()
+</details>
+
+<br>
+
+CSS
+<details>
+<summary>Stylesheet</summary>
+
+![Screenshot of W3C Jigsaw testing for CSS Stylesheet]()
+</details>
+
+  <br>
+
+### **Bugs**
+  
+  | Raised by | Bug | Solution |
+  | :---      | :---| :---     |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+  |  |  |  |
+
+<br>
+
+----
+
+## Credits
+### **Resources**
+- 
+
+<br>
+
+### **Acknowledgements**
