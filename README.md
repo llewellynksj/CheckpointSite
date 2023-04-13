@@ -105,11 +105,8 @@ The chosen colour scheme has been based on the colours of the British flag. Thes
 
 ![Image of colour palette]()
 
-<<<<<<< HEAD
 ![Image of colour palette]()
 
-=======
->>>>>>> 3ed7b29 (Add template for readme and update summary points)
 
 <br>
 
@@ -207,7 +204,6 @@ Logout:
 
 <br>
 
-<<<<<<< HEAD
 <details>
 <summary>Blog Pages</summary>
 
@@ -248,8 +244,6 @@ Logout:
 
 <br>
 
-=======
->>>>>>> 3ed7b29 (Add template for readme and update summary points)
 ----
 
 ## Features
@@ -258,11 +252,8 @@ Logout:
 **All** pages include the following features:
 - Navigation bar:
 
-<<<<<<< HEAD
 - Footer: The footer contains the icons for social media and these are linked to the Ex-Military Careers sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
-=======
 - Footer:
->>>>>>> 3ed7b29 (Add template for readme and update summary points)
 
 - Get help button:
 

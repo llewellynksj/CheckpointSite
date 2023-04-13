@@ -12,6 +12,7 @@ from django.views import generic
 from django.views.generic import DetailView
 from .models import SubscribedUsers, Profile
 from .forms import EditProfileForm, PasswordChangingForm
+from .models import Category
 
 
 class EditProfilePageView(generic.UpdateView):
@@ -38,7 +39,7 @@ class ShowProfilePageView(DetailView):
 
 def index(request):
     """User can Get in touch with us - gmail settings"""
-    categories = category.objects.all()
+    categories = Category.objects.all()
 
     context = {
         'categories': categories,
