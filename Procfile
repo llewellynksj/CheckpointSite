@@ -1,0 +1,1 @@
+web: gunicorn emergency_code.wsgi:application
