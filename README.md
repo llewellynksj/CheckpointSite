@@ -59,11 +59,7 @@ CheckPoint is a website that has been created to facilitate a peer-led support s
 ## User Experience (UX)
 ### **Purpose**
 
-CheckPoint is a website that has been created to facilitate a peer-led support service to veterans dealing with mental health struggles. The blog style of the site allows veterans to share their own experiences and explore different ways of improving their health & wellbeing.
-
-The driving force behind this method of digital story sharing is to enable users to discuss their difficulties transitioning back to civilian life, without the attached mental health stigma. This is also a central consideration around User Experience(UX) and User Interface Design (UI). The ease of use and simple navigation system should allow users to quickly find what they're looking for and avoid causing any unnecessary frustrations.
-
-People who may be dealing with poor mental health and struggling with the vulnerabilities that come with that should not be expected to navigate a complex website for support. Therefore the focus of CheckPoint's design is simple, clean and accessible.
+Enter purpose description 
 
 <br>
 
@@ -109,6 +105,11 @@ The chosen colour scheme has been based on the colours of the British flag. Thes
 
 ![Image of colour palette]()
 
+<<<<<<< HEAD
+![Image of colour palette]()
+
+=======
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
 
 <br>
 
@@ -206,6 +207,49 @@ Logout:
 
 <br>
 
+<<<<<<< HEAD
+<details>
+<summary>Blog Pages</summary>
+
+Sign Up:
+
+![Sign up page wireframe](static/readme_img/)
+
+Login:
+
+![Login page wireframe](static/readme_img/login.png)
+
+Profile:
+
+![Profile page wireframe](static/readme_img/profile_page.png)
+
+Add Post:
+
+![Add post page wireframe](static/readme_img/add_post.png)
+
+Delete Post:
+
+![Delete post page wireframe](static/readme_img/delete_post.png)
+
+Logout:
+
+![Logout page wireframe](static/readme_img/logout.png)
+</details>
+
+<br>
+
+<details>
+<summary>Error Pages</summary>
+
+![404 Error Page wireframe](static/readme_img/404.png)
+![403 Error Page wireframe](static/readme_img/403.png)
+![500 Error Page wireframe](static/readme_img/500.png)
+</details>
+
+<br>
+
+=======
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
 ----
 
 ## Features
@@ -214,7 +258,11 @@ Logout:
 **All** pages include the following features:
 - Navigation bar:
 
+<<<<<<< HEAD
+- Footer: The footer contains the icons for social media and these are linked to the Ex-Military Careers sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
+=======
 - Footer:
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
 
 - Get help button:
 
@@ -411,6 +459,8 @@ CSS
   |  |  |  |
   |  |  |  |
   |  |  |  |
+  |  |  |  |
+  |  |  |  |
 
 <br>
 
@@ -422,4 +472,8 @@ CSS
 
 <br>
 
+<<<<<<< HEAD
 ### **Acknowledgements**
+=======
+### **Acknowledgements**
+>>>>>>> 3ed7b29 (Add template for readme and update summary points)
