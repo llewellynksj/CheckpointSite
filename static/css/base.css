@@ -28,3 +28,15 @@ body {
     font-size: 55px;
     color: red;
 }
+
+.btn-donate {
+    background-color: #011140;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.btn-donate:hover {
+    background-color: #D9042B;
+    color: white;
+}
