@@ -15,6 +15,20 @@ from .forms import EditProfileForm, PasswordChangingForm
 from .models import Category
 
 
+def index(request):
+    """ A view to return the index page """
+
+    return render(request, 'home/index.html')
+
+def contact(request):
+   
+    return render(request, 'includes/contact.html')
+
+def about(request):
+
+    return render(request, 'includes/about.html')
+
+
 class EditProfilePageView(generic.UpdateView):
     """Allow users to edit their profile"""
     model = Profile

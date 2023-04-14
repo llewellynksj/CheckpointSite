@@ -10,6 +10,8 @@ from .views import (index,
 
 urlpatterns = [
     path('', views.index, name='home'),
+    path('contact/', views.contact, name='contact'),
+    path('about/', views.contact, name='about')
     path('newsletter/', views.newslett, name='newsletter'),
     path('validate/', views.validate_email, name='validate_email'),
     path('', index),
