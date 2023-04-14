@@ -59,7 +59,13 @@ CheckPoint is a website that has been created to facilitate a peer-led support s
 ## User Experience (UX)
 ### **Purpose**
 
-Enter purpose description 
+CheckPoint's mission is to facilitate a peer-led support service to ex-servicemen and women who are struggling with mental health. The blog style of the site allows veterans to share their own experience and explore different ways of improving their health and well-being. The driving force behind this method of digital story sharing is to enable users to discuss their difficulties transitioning back to civilian life without the attached mental health stigma.
+
+
+We hope that through the medium of blogging, veterans are able to share their experiences and explore different ways of improving their quality of life in a safe, unassuming environment.
+
+
+Checkpoint allows the user to write their story and/or digitally upload their art. They can do this by taking a picture of their work and uploading it and/or write a blog post.
 
 <br>
 
@@ -102,24 +108,26 @@ Enter purpose description
 ### **Colour Scheme**
 The chosen colour scheme has been based on the colours of the British flag. These colours should resonate strongly with ex-servicemen and women.
 
-
 ![Image of colour palette]()
-
-![Image of colour palette]()
-
 
 <br>
 
 ### **Typography**
 
 
-
 <br>
 
 ### **Imagery**
+Logo: The logo has been created using [Canva](canva.com). The simple and inelaborate design features the colours of the British flag in line with the colour scheme throughout the site.
+
+
+![Image of the CheckPoint logo](static/readme_img/checkpoint_logo.webp)
+
+<br>
+
 We want the UX of this site to reflect a strong message of inclusivity, and imagery has been chosen to reflect this.
 
-Images have been sourced from...
+Images have been sourced from [Pexels](https://www.pexels.com/) and [Adobe Stock](https://adobe.ly/3GJB37o).
 
 <br>
 
