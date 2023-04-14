@@ -62,11 +62,49 @@
   }
 
   .about-text {
-    padding: 15px;
+    padding: 20px;
   }
 
   .button-container {
     width: 150px;
     margin: auto;
     padding-top: 25px;
+  }
+
+  .button-container button {
+    background-color: #011140;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 22px;
+  }
+
+  .button-container button:hover {
+    background-color: white;
+    color: #011140;
+    border: solid 2px #011140;
+    font-weight: bolder;
+}
+
+  .about-section-3 {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .about-section-3 div h3 {
+    text-align: center;
+  }
+
+  .team {
+    flex-direction: row;
+  }
+
+  .team div {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
   }
