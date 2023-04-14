@@ -258,10 +258,10 @@ Logout:
 ### **Existing Features**
 
 **All** pages include the following features:
-- Navigation bar:
+- Navigation bar: The navogation bar is kept minimal to ensure ease of use. The logo appears centrally, and the navigation links are clearly labelled on the left of the page. 
+On mobile devices the navigation menu transforms into a hamburger menu so as not to crowd the screen.
 
-- Footer: The footer contains the icons for social media and these are linked to the Ex-Military Careers sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
-- Footer:
+- Footer: The footer contains the icons for social media and these are linked to the [Ex-Military Careers](https://www.ex-militarycareers.com/) sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
 
 - Get help button:
 
@@ -290,8 +290,8 @@ In addition to being best practice, having an accessible website is extremely hi
 
 ### **Future Features**
 In the future there are features and developments that it would be useful to consider adding to create an even better user experience of this website. They include:
+- We were extremely keen to add a button so that users could post anonymously. This would be at the top of our priorities for future implementations.
 - Developing the art therapy section of the site to be seperate from the stories blog
--
 
 <br>
 
@@ -299,12 +299,13 @@ In the future there are features and developments that it would be useful to con
 
 ## Technologies
 ### **Languages Used**
-This website has been written in...
+This website has been written in HTML, CSS, Javascript, Python
 
 <br>
 
 **Frameworks, Libraries and Programs Used**
-- 
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 <br>
 
@@ -312,8 +313,6 @@ This website has been written in...
 
 ## Version Control
 Version control has been maintained using Git. The code written for this website has been updated via regular commits to Github. These serve as a record of development and changes made.
-
-The commit history can be viewed [here]()
 
 <br>
 
@@ -326,8 +325,6 @@ The commit history can be viewed [here]()
 ----
 
 ## Testing
-Testing was performed across a range of devices, including:
-- 
 
 ### **Function Testing**
 
@@ -473,3 +470,7 @@ CSS
 
 
 ### **Acknowledgements**
+We would like to acknowledge the organisations who gave us the opportunity to produce this project for such a worthwhile cause:
+ - Code Institute
+ - Trust in SODA
+ - Ex-Military Careers

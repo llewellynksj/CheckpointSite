@@ -100,37 +100,3 @@
     width: 50%;
     height: auto;
   }
-
-  /* ******************** tablet styles ******************** */
-@media only screen and (min-width: 800px) {
-
-}
-
-/* ******************** laptop styles ******************** */
-@media only screen and (min-width: 1024px) {
-  .flex-container {
-    flex-direction: row;
-  }
-
-  .about-img {
-    width: 50%;
-    height: 33.3%;
-  }
-
-  .about-section-2 {
-    flex-direction: row-reverse;
-  }
-
-  .about-section-3 {
-    flex-direction: column;
-  }
-
-  .team {
-    flex-direction: row;
-  }
-}
-
-/* ******************** desktop styles ******************** */
-@media only screen and (min-width: 1600px) {
-
-}
