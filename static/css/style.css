@@ -38,6 +38,7 @@
   .nav-check {
     height: 100px;
     justify-content: space-between;
+    padding: 0 25px;
   }
 
   .navbar-toggler {
@@ -53,6 +54,12 @@
     height: 50px;
     width: auto;
     text-align: center;
+  }
+
+  /* index page styling */
+  .carousel-img {
+    width: 100%;
+    height: auto;
   }
 
   /* about page styling */
@@ -142,7 +149,7 @@
   /* larger screen styles */
   @media only screen and (min-width: 1024px) {
     .heroimg img {
-      height: 100px;
+      height: 75px;
     }
 
     .nav-section1, .nav-section2, .nav-section3 {
