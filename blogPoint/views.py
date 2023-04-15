@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
-from django.contrib import messages
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.utils.text import slugify
@@ -62,8 +61,6 @@ class PostDetail(View):
             comment = comment_form.save(commit=False)
             comment.post = post
             comment.save()
-            messages.success(request, """
-            Your comment was sent successfully and is awaiting approval!""")
         else:
             comment_form = CommentForm()
 
@@ -87,10 +84,8 @@ class PostLike(View):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
             post.likes.remove(request.user)
-            messages.success(request, 'You have unliked this post.')
         else:
             post.likes.add(request.user)
-            messages.success(request, 'You have liked this post. Thanks!')
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
@@ -105,8 +100,6 @@ class AddPostView(LoginRequiredMixin, generic.CreateView):
         form.instance.author = self.request.user
         form.instance.slug = slugify(form.cleaned_data['title'])
         return super(AddPostView, self).form_valid(form)
-        success_message = ("""
-            Your post was sent successfully and is awaiting publication!""")
 
 
 class UpdatePostView(UserPassesTestMixin, generic.UpdateView):
@@ -121,7 +114,6 @@ class UpdatePostView(UserPassesTestMixin, generic.UpdateView):
 
         if current_ticket.author == logged_in_user:
             return True
-            success_message = 'Your post was successfully updated!'
         else:
             return False
 
@@ -138,6 +130,5 @@ class DeletePostView(UserPassesTestMixin, generic.DeleteView):
 
         if current_ticket.author == logged_in_user:
             return True
-            success_message = 'Your post was successfully deleted!'
         else:
             return False
