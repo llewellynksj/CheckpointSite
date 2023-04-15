@@ -34,6 +34,8 @@
     z-index: 100;
   }
 
+  /* nav bar styles */
+
   /* about page styling */
   .spacer {
     width: 100%;
@@ -67,6 +69,11 @@
     padding-top: 25px;
   }
 
+  .button-container button a {
+    text-decoration: none;
+    color: white;
+  }
+
   .button-container button {
     background-color: #011140;
     color: white;
@@ -79,7 +86,11 @@
     color: #011140;
     border: solid 2px #011140;
     font-weight: bolder;
-}
+  } 
+
+  .button-container button a:hover {
+    color: #011140;
+  }
 
   .about-section-3 {
     flex-direction: column;
@@ -93,12 +104,20 @@
   .team div {
     width: 300px;
     padding: 20px;
+    align-items: center;
+    justify-content: center;
   }
 
   .profile-img {
     border-radius: 50%;
     width: 50%;
     height: auto;
+  }
+
+  i {
+    color: black;
+    font-size: larger;
+    text-align: center;
   }
 
   /* larger screen styles */
