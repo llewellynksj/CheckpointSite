@@ -264,20 +264,66 @@ On mobile devices the navigation menu transforms into a hamburger menu so as not
 - Footer: The footer contains the icons for social media and these are linked to the [Ex-Military Careers](https://www.ex-militarycareers.com/) sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
 
 - Get help button:
+![Get Help Button](https://user-images.githubusercontent.com/96884287/232233599-894ca7a4-1aa5-447a-bbad-4d7f224e54fc.PNG)
+![Get Help When Clicked](https://user-images.githubusercontent.com/96884287/232233610-efcc703d-9cfa-48b1-90d6-964a36![Get Help - Option 1](https://user-images.githubusercontent.com/96884287/232233621-d32f5e23-6e3a-4788-bf5d-91ebf58f3882.PNG)
+0faefc.PNG)
+![Get Help - Option 2](https://user-images.githubusercontent.com/96884287/232233637-a8e9c0a7-32e6-45de-ae76-8e4fd![Get Help - Option 3](https://user-images.githubusercontent.com/96884287/232233646-4ae0a80d-1288-4233-aa18-e9419d2833cc.PNG)
+ea46594.PNG)
 
-<br>
 
 ### Homepage
+![Home Page](https://user-images.githubusercontent.com/96884287/232233662-1c12ad0a-fcd2-4f1a-9962-f9776f2bf2a3.PNG)
 
-<br>
+
 
 ### About Us page
 
-<br>
+![About US Page](https://user-images.githubusercontent.com/96884287/232233685-ee9bd5b5-8741-4b77-92c8-87bbb5305e6a.PNG)
+![Post a blog Button](https://user-images.githubusercontent.com/96884287/232233762-2d740944-56fb-43c2-a2a2-5a4bf6422724.PNG)
+![Share your art button](https://user-images.githubusercontent.com/96884287/232233765-58ebca06-d950-4912-a2b2-fa865dee15a4.PNG)
+
 
 ### Contact page
 
-<br>
+![Contact Page](https://user-images.githubusercontent.com/96884287/232233692-e3085894-e70a-4197-a1d6-4a2897d62121.PNG)
+![Contact Us Form](https://user-images.githubusercontent.com/96884287/232233696-c8639c62-9a14-4569-99f7-006159abe3ba.PNG)
+![Created by](https://user-images.githubusercontent.com/96884287/232233707-28c650b1-626b-4d01-81aa-1a4f1e0c9ce7.PNG)
+
+### Newsletter
+
+![Newsletter Button](https://user-images.githubusercontent.com/96884287/232233738-8da744d8-1614-4c5f-a9a0-a60d3b71394d.PNG)
+![Newsletter Log In](https://user-images.githubusercontent.com/96884287/232233743-2607d5be-9fed-4869-a4cd-ff8bdb0ecde5.PNG)
+
+### Navbar
+
+![Drop Down Menu](https://user-images.githubusercontent.com/96884287/232233818-54660277-c1b0-4576-aaab-3e3f4ed7218e.PNG)
+
+### Other buttons
+
+![Group Pictures](https://user-images.githubusercontent.com/96884287/232233845-31c985bb-e53a-458b-9994-107b48621482.PNG)
+![GitHub Icon](https://user-images.githubusercontent.com/96884287/232233852-12a1ee8e-f372-4f2b-aea8-fd6ea0c28b7b.PNG)
+
+### Edit Profile
+![Edit Profile Page](https://user-images.githubusercontent.com/96884287/232233862-e4055e0d-712d-400c-827d-5a8abbb594a2.PNG)
+
+### Change Email
+
+
+![Change Email](https://user-images.githubusercontent.com/96884287/232233874-c8e0230c-11fe-4402-8854-f86dc9b0999c.PNG)
+
+
+### Preview Profile
+![Preview Profile Button](https://user-images.githubusercontent.com/96884287/232233887-424114be-f34a-4f8e-b4f4-f30423de25ac.PNG)
+
+### Footer
+![Footer](https://user-images.githubusercontent.com/96884287/232233908-99fdd7cf-49f2-46b0-a796-388c449d6a1e.PNG)
+
+### Favicon
+
+![Fabicon](https://user-images.githubusercontent.com/96884287/232233921-b1711dc4-dffe-4fde-8e11-f2ae385fa1ac.PNG)
+
+
+
 
 ### **Accessibility**
 In addition to being best practice, having an accessible website is extremely high on the list of requirements for the target audience. Close attention has been paid to the following in order to ensure the site is as accessible as possible:
