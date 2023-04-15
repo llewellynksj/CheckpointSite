@@ -59,7 +59,13 @@ CheckPoint is a website that has been created to facilitate a peer-led support s
 ## User Experience (UX)
 ### **Purpose**
 
-Enter purpose description 
+CheckPoint's mission is to facilitate a peer-led support service to ex-servicemen and women who are struggling with mental health. The blog style of the site allows veterans to share their own experience and explore different ways of improving their health and well-being. The driving force behind this method of digital story sharing is to enable users to discuss their difficulties transitioning back to civilian life without the attached mental health stigma.
+
+
+We hope that through the medium of blogging, veterans are able to share their experiences and explore different ways of improving their quality of life in a safe, unassuming environment.
+
+
+Checkpoint allows the user to write their story and/or digitally upload their art. They can do this by taking a picture of their work and uploading it and/or write a blog post.
 
 <br>
 
@@ -102,24 +108,26 @@ Enter purpose description
 ### **Colour Scheme**
 The chosen colour scheme has been based on the colours of the British flag. These colours should resonate strongly with ex-servicemen and women.
 
-
 ![Image of colour palette]()
-
-![Image of colour palette]()
-
 
 <br>
 
 ### **Typography**
 
 
-
 <br>
 
 ### **Imagery**
+Logo: The logo has been created using [Canva](canva.com). The simple and inelaborate design features the colours of the British flag in line with the colour scheme throughout the site.
+
+
+![Image of the CheckPoint logo](static/readme_img/checkpoint_logo.webp)
+
+<br>
+
 We want the UX of this site to reflect a strong message of inclusivity, and imagery has been chosen to reflect this.
 
-Images have been sourced from...
+Images have been sourced from [Pexels](https://www.pexels.com/) and [Adobe Stock](https://adobe.ly/3GJB37o).
 
 <br>
 
@@ -250,10 +258,10 @@ Logout:
 ### **Existing Features**
 
 **All** pages include the following features:
-- Navigation bar:
+- Navigation bar: The navogation bar is kept minimal to ensure ease of use. The logo appears centrally, and the navigation links are clearly labelled on the left of the page. 
+On mobile devices the navigation menu transforms into a hamburger menu so as not to crowd the screen.
 
-- Footer: The footer contains the icons for social media and these are linked to the Ex-Military Careers sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
-- Footer:
+- Footer: The footer contains the icons for social media and these are linked to the [Ex-Military Careers](https://www.ex-militarycareers.com/) sites. As this site has been produced in association with Ex-Military Careers links to their webpages and social media sites are used throughout.
 
 - Get help button:
 
@@ -282,8 +290,8 @@ In addition to being best practice, having an accessible website is extremely hi
 
 ### **Future Features**
 In the future there are features and developments that it would be useful to consider adding to create an even better user experience of this website. They include:
+- We were extremely keen to add a button so that users could post anonymously. This would be at the top of our priorities for future implementations.
 - Developing the art therapy section of the site to be seperate from the stories blog
--
 
 <br>
 
@@ -291,12 +299,13 @@ In the future there are features and developments that it would be useful to con
 
 ## Technologies
 ### **Languages Used**
-This website has been written in...
+This website has been written in HTML, CSS, Javascript, Python
 
 <br>
 
 **Frameworks, Libraries and Programs Used**
-- 
+- [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 <br>
 
@@ -304,8 +313,6 @@ This website has been written in...
 
 ## Version Control
 Version control has been maintained using Git. The code written for this website has been updated via regular commits to Github. These serve as a record of development and changes made.
-
-The commit history can be viewed [here]()
 
 <br>
 
@@ -318,8 +325,6 @@ The commit history can be viewed [here]()
 ----
 
 ## Testing
-Testing was performed across a range of devices, including:
-- 
 
 ### **Function Testing**
 
@@ -465,3 +470,7 @@ CSS
 
 
 ### **Acknowledgements**
+We would like to acknowledge the organisations who gave us the opportunity to produce this project for such a worthwhile cause:
+ - Code Institute
+ - Trust in SODA
+ - Ex-Military Careers
