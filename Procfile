@@ -1,1 +1,1 @@
-web: gunicorn emergency_code.wsgi:application
+web: gunicorn checkpointsite.wsgi:application
