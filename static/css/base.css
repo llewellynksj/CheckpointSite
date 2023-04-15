@@ -29,6 +29,7 @@ body {
     color: red;
 }
 
+
 #contact-container {
     padding-top: 112px;
     padding-left: 10%;
@@ -113,4 +114,14 @@ body {
     #contact-form textarea {
         width: 100%;
     }
+
+.btn-donate {
+    background-color: #011140;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
 }
+
+.btn-donate:hover {
+    background-color: #D9042B;
+    color: white;

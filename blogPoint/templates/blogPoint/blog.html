@@ -38,7 +38,7 @@
                                             class="rounded-circle" alt="User profile picture" style="
                                             float: left;">
                                         {% else %}
-                                        <img src="{% static 'images/defaultpic.jpeg' %}" width=25 height=25
+                                        <img src="{% static 'images/defaultpic.webp' %}" width=25 height=25
                                             alt="Default Picture" style="
                                             float: left;">
                                         {% endif %}
@@ -49,9 +49,9 @@
                                         </a>
                                     </div>
                                     {% if post.featured_image %}
-                                    <img src="/media/{{ post.featured_image }}" width="100vw" alt="picture added by user">
+                                    <img src="{{ post.featured_image.url }}" width="100%" alt="picture added by user">
                                     {% else %}
-                                    <img src="{% static 'images/pholdb.webp' %}" width="100vw" alt="placeholder">
+                                    <img src="{% static 'images/pholdb.jpg' %}" width="100%" alt="placeholder">
                                     {% endif %}
                                 </div>
                                 <br>

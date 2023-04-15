@@ -17,7 +17,7 @@
             {% if user.profile.profile_pic %}
                 <img src="{{ user.profile.profile_pic.url }}" width=250 height=250 class="img-fluid rounded mx-auto d-block shadow-lg p-2 mb-5 bg-body rounded" alt="Profile Picture">
             {% else %}
-                <img src="{% static 'images/defaultpic.jpeg' %}" width=250 height=250 class="img-fluid rounded mx-auto d-block shadow-lg p-2 mb-5 bg-body rounded" alt="Default Picture">
+                <img src="{% static 'images/defaultpic.webp' %}" width=250 height=250 class="img-fluid rounded mx-auto d-block shadow-lg p-2 mb-5 bg-body rounded" alt="Default Picture">
             {% endif %}
             <div class="card mb-3">
                 <div class="card-body">

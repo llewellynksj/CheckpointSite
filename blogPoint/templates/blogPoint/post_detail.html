@@ -7,9 +7,9 @@
 </div>
 <div>
     {% if post.featured_image %}
-    <img src="/media/{{ post.featured_image }}" class="mx-auto d-block" height="500px" width="auto" alt="picture added by user">
+    <img src="{{ post.featured_image.url }}" class="mx-auto d-block" height="500px" width="auto" alt="picture added by user">
     {% else %}
-    <img src="{% static 'images/pholdb.webp' %}" class="mx-auto d-block" height="100px" width="auto" alt="placeholder">
+    <img src="{% static 'images/pholdb.jpg' %}" class="mx-auto d-block" height="100px" width="auto" alt="placeholder">
     {% endif %}
 </div>
 
@@ -24,7 +24,7 @@
                     <img src="{{ user.profile.profile_pic.url }}" width=25 height=25 class="rounded-circle"
                         alt="User profile picture">
                     {% else %}
-                    <img src="{% static 'images/defaultpic.jpeg' %}" width=25 height=25 alt="Default Picture">
+                    <img src="{% static 'images/defaultpic.webp' %}" width=25 height=25 alt="Default Picture">
                     {% endif %} {{ post.author }} | <small><em>On: 
                     {{ post.created_on }}</em></small></p>
                 <p class="card-text">
@@ -87,7 +87,7 @@
                         <img src="{{ comment.user.profile.profile_pic.url }}" width=30 height=30 class="rounded-circle"
                             alt="User profile picture">
                         {% else %}
-                        <img src="{% static 'images/defaultpic.jpeg' %}" width=30 height=30 alt="Default Picture">
+                        <img src="{% static 'images/defaultpic.webp' %}" width=30 height=30 alt="Default Picture">
                         {% endif %}
                         <a class="user_name_hover" href="{% url 'show_profile_page' comment.user.profile.id %}">{{ comment.name }}</a>
                         <!-- The comment's created date goes here -->
