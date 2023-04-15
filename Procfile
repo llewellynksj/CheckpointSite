@@ -1,1 +1,1 @@
-web: gunicorn checkpointsite.wsgi
+web: gunicorn checkpointsite.wsgi:application
