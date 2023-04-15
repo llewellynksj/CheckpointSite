@@ -80,6 +80,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'ThePoint.urls'
 
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
