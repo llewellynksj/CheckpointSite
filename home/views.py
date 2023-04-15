@@ -22,7 +22,7 @@ def index(request):
 
 def contact(request):
    
-    return render(request, 'includes/contact.html')
+    return render(request, 'contact.html')
 
 def about(request):
 
