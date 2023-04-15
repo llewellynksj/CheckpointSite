@@ -67,12 +67,31 @@
     {% block content %}
 
     {% endblock %}
+    <div>
+    <button id="open-chat-btn" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 5%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 44px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    font-size: 19px;
+"><i class="fa-solid fa-message"></i></button>
+    </div>
+
+
     <!-- footer -->
+    
     {% include 'includes/footer.html' %}
 
     {% block postloadjs %}
 
     {% endblock %}
+
+    
 
 </body>
 
