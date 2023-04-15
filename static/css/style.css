@@ -35,6 +35,25 @@
   }
 
   /* nav bar styles */
+  .nav-check {
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.35rem;
+    margin-left: 10px;
+  }
+
+  .nav-section1, .nav-section2, .nav-section3 {
+    width: auto;
+  }
+
+  .heroimg img {
+    height: 50px;
+    width: auto;
+    text-align: center;
+  }
 
   /* about page styling */
   .spacer {
@@ -122,6 +141,19 @@
 
   /* larger screen styles */
   @media only screen and (min-width: 1024px) {
+    .heroimg img {
+      height: 100px;
+    }
+
+    .nav-section1, .nav-section2, .nav-section3 {
+      width: 33.3%;
+    }
+
+    .nav-section3 {
+      display: flex;
+      justify-content: end;
+    }
+
     .flex-container {
       flex-direction: row;
     }
