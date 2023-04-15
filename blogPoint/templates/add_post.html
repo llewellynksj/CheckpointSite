@@ -6,11 +6,11 @@
 {% if user.is_authenticated %}
 <!--If the user is authenticated he can add a post in the Blog section-->
 <h1 class="text-center m-3" style="
-    color: #07430c;
+    color: #011140;
 "><strong><em>Create a post for our blog!</em></strong></h1>
 <br /> <br />
 
-<div class="ml-5">
+<div class="ml-5 rules">
     <strong>Rules:</strong>
     <br>
     <em>
@@ -29,8 +29,8 @@
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
-        <button class="btn btn-dark mb-2" style="
-        float: right;
+        <button class="btn btn-dark mb-2 button-design" style="
+        align-self: center;
     ">Post</button>
     </form>
 </div>

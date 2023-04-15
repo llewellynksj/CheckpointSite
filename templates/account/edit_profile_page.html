@@ -9,7 +9,7 @@
 
 {% if user.is_authenticated %}
     {% if user.id == profile.user.id %}
-    <h1>Edit Profile Page..</h1>
+    <h1 class="profile_header">Edit Profile Page</h1>
     <br /><br />
 <!--This page has been made to allow user to edit their profile page just if they are authenticated into their account-->
     <div class="form-group m-3 p-3">
@@ -26,7 +26,7 @@
                   {{ form.as_p }}
                 </div>
               </div>
-            <button class="btn btn-secondary mt-3">Update Profile Page</button>
+            <button class="btn btn-secondary mt-3 button-design">Update Profile Page</button>
         </form>
     </div>
     <!--If the user dos not match the username id he will be redirected-->
