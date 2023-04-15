@@ -17,7 +17,7 @@
                 you
                 have not created an account yet, then <a class="link" href="{{ signup_url }}"
                     style="color: rgb(168, 0, 184); background-color: rgba(255, 255, 255, 0.397);">sign
-                    up</a>first.{% endblocktrans %}</p>
+                    up</a> first.{% endblocktrans %}</p>
         </div>
     </div>
     <div class="row">
@@ -28,7 +28,7 @@
                 {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
-                <button class="button-style mb-2" type="submit">{% trans "Sign In" %}</button>
+                <button class="button-style mb-2 button-design" type="submit">{% trans "Sign In" %}</button>
                 <p><a href="{% url 'account_reset_password' %}" class="login-a">{% trans "Forgot Password?" %}</a></p>
             </form>
         </div>
