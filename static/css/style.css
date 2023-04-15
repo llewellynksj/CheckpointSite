@@ -243,6 +243,22 @@ i {
   padding: 0.5rem 2rem;
 }
 
+.button-design {
+  background-color: #011140;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 22px;
+  margin-top: 5px;
+}
+
+.button-design:hover {
+  background-color: white;
+  color: #011140;
+  border: solid 2px #011140;
+  font-weight: bolder;
+}
+
+/* footer styles */
 .footer-section {
   margin-top: 48px;
 }
