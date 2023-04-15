@@ -232,17 +232,20 @@ i {
 }
 
 /* footer styles */
+
 .footer-section {
-  margin-top: 48px;
+  margin-top: auto;
+  height: 250px;
+  width:auto;
 }
+
 
 .footer-list li a {
   text-decoration: none;
 }
 
-.footer-button {
-  margin: auto;
-  margin-bottom: 20px;
+.footer_button {
+  margin: 10px 0;
 }
 
 .footer-socials {
