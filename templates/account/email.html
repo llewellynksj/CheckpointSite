@@ -33,11 +33,11 @@
     {% endfor %}
 
     <div class="buttonHolder">
-      <button class="secondaryAction button-style" type="submit"
+      <button class="secondaryAction button-style button-design" type="submit"
         name="action_primary">{% trans 'Make Primary' %}</button>
-      <button class="secondaryAction button-style" type="submit"
+      <button class="secondaryAction button-style button-design" type="submit"
         name="action_send">{% trans 'Re-send Verification' %}</button>
-      <button class="primaryAction button-style" type="submit" name="action_remove">{% trans 'Remove' %}</button>
+      <button class="primaryAction button-style button-design" type="submit" name="action_remove">{% trans 'Remove' %}</button>
     </div>
 
   </fieldset>
@@ -56,7 +56,7 @@
 <form method="post" action="{% url 'account_email' %}" class="add_email text-center mt-3">
   {% csrf_token %}
   {{ form.as_p }}
-  <button name="action_add" type="submit" class="button-style">{% trans "Add E-mail" %}</button>
+  <button name="action_add" type="submit" class="button-style button-design">{% trans "Add E-mail" %}</button>
 </form>
 {% endif %}
 
